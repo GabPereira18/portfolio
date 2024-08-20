@@ -38,7 +38,17 @@ body {
     font-weight: 600;
     color: var(--cor--terciaria);
     text-decoration: none;
+    transition: transform 0.2s ease-out, color 0.2s ease-out, text-shadow 0.2s ease-out;
 }
+
+.cabecalho__menu__link:hover {
+    color: #007bff; 
+    transform: scale(1.1); 
+    text-shadow: 2px 2px 8px rgba(0, 0, 255, 0.3); 
+    cursor: pointer; 
+}
+
+
 
 .apresentacao {
     padding: 5% 15%;
@@ -59,19 +69,6 @@ body {
     font-size: 2.25rem;
     font-family: var(--font-primaria);
     transition: color 0.3s ease;
-}
-
-.apresentacao__conteudo__titulo__menu {
-    font-size: 2.25rem;
-    font-family: var(--font-primaria);
-    transition: transform 0.2s ease-out, color 0.2s ease-out, text-shadow 0.2s ease-out;
-}
-
-.apresentacao__conteudo__titulo__menu:hover {
-    color: #ff4757; 
-    transform: scale(1.1); 
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); 
-    cursor: pointer; 
 }
 
 .titulo-destaque {
